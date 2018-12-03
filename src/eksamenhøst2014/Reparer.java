@@ -1,4 +1,4 @@
-package eksamen2014;
+package eksamenhøst2014;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

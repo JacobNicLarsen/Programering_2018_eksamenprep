@@ -1,7 +1,4 @@
-package eksamen2013;
-
-import java.util.ArrayList;
-import java.util.Arrays;
+package eksamenhøst2013;
 
 public class Pasientregister
 {
