@@ -1,4 +1,4 @@
-package eksamen2013;
+package eksamenhøst2013;
 
 public class Lege extends Person {
 

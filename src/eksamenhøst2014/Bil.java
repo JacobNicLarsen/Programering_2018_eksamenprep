@@ -1,7 +1,6 @@
-package eksamen2014;
+package eksamenhøst2014;
 
 import java.util.Arrays;
-import java.util.Date;
 
 public class Bil {
     private String kjennetegn;

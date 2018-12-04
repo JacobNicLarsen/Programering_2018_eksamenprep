@@ -1,4 +1,4 @@
-package eksamen2014;
+package eksamenhøst2014;
 
 public class Bilregister {
     private Bil[] bilregister; // NB! Arrayen kan inneholde null-pekere!

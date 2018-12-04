@@ -38,7 +38,7 @@ public class UnikeTall{
 
    public void fyllArray(){
        for (int i = 0; i < tilfeldigtallArray.length; i++) {
-           int nyttTall = (int)(Math.random() * 899) + 100;
+           int nyttTall = (int)(Math.random() * 900) + 100;
            while (finnesIArrayen(nyttTall)){
                nyttTall = (int)(Math.random() * 10) + 100;
            }
