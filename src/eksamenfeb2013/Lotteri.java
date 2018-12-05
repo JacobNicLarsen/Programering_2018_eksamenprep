@@ -8,7 +8,7 @@ public class Lotteri
     private  int sumLoddsalg;  //Summen det er solgt lodd for i hele kroner
     private Lodd[] loddbok;
     private Gevinst[] gevinster;
-    private boolean trekningForetatt = false;
+    public boolean trekningForetatt = false;
 
     /*
     < Konstruktør som mottar parametre for rødekorsandelen og loddprisen,
@@ -88,6 +88,7 @@ public class Lotteri
         informasjon om at det er solgt for få lodd til at gevinstprognoser kan
         beregnes. >*/
 
+        beregnGevinster();
         String utGevinster = "";
         for (Gevinst enGevinst : gevinster){
             utGevinster += enGevinst.getGevinst() + " ";
